@@ -523,7 +523,7 @@ const Toggle = () => {
             </p>
             <div
               className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${
-                toggle ? "bg-[#B00000]" : "bg-black"
+                toggle ? "bg-black" : "bg-[#B00000]"
               }`}
               onClick={btn}
             >
