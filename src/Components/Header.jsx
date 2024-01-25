@@ -65,11 +65,11 @@ const Header = () => {
                   <h2 className="text-[45px] sm:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[77.5px] text-center lg:text-start pt-4">
                     Premium Web Hosting for Your Website
                   </h2>
-                  <p className=" font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] pt-10 text-center lg:text-start">
+                  <p className=" font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] lg:pt-10 pt-2 text-center lg:text-start">
                     Blazing fast web hosting for individuals and businesses of
                     all sizes backed by 24x7x365 Support.
                   </p>
-                  <div className=" flex gap-5 pt-14 justify-center lg:justify-start">
+                  <div className=" flex gap-5 lg:pt-14 justify-center lg:justify-start py-3">
                     <button
                       class="relative sm:pb-3 sm:pt-2 pb-2 pt-1 sm:px-[18px] px-2.5 group rounded-[8px] overflow-hidden  bg-[#B00000] text-white shadow-[0px_0px_64px0px#B000004D] hover:shadow-black hover:shadow-2xl
                       before:transition-all before:ease-linear before:hover:bg-black duration-300 before:duration-300 before:absolute before:left-[100%] before:bg-transparent before:hover:left-0 before:hover:w-full before:top-0 before:w-full before:h-full border-none"
@@ -88,7 +88,7 @@ const Header = () => {
               )}
               {activeTab === "tab2" && (
                 <p className="fw-bold">
-                  <h2 className="text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[77.5px] text-center lg:text-start pt-4">
+                  <h2 className="text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px]  !lg:leading-[77.5px] text-center lg:text-start pt-4">
                     Premium Web Domain for Your Website
                   </h2>
                   <p className=" font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] pt-10 text-center lg:text-start">
@@ -110,7 +110,7 @@ const Header = () => {
               )}
               {activeTab === "tab3" && (
                 <p className="fw-bold">
-                  <h2 className="text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] leading-[77.5px] text-center lg:text-start pt-4">
+                  <h2 className="text-[50px] md:text-[64px] font-poppins font-bold text-[#2E2E2E] lg:max-w-[608px] lg:leading-[121.094%] text-center lg:text-start pt-4">
                     Premium Web SEO for Your Website
                   </h2>
                   <p className=" font-inter text-[#808080] text-[16px] font-normal lg:max-w-[408px] pt-10 text-center lg:text-start">

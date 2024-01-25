@@ -30,7 +30,7 @@ const Mynav = () => {
               </ul>
             </div>
             <ul
-              className={`flex items-center gap-7 mobileView ${
+              className={`flex items-center lg:gap-7 mobileView ${
                 show ? "right-[-100%]" : "right-0"
               }`}
             >

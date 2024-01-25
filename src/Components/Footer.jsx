@@ -4,9 +4,9 @@ const Footer = () => {
     const roshni = new Date();
     const year = roshni.getFullYear();
   return (
-    <div className="bg-[#B00000] pb-20 pt-16">
+    <div className="bg-[#B00000] lg:pb-20 lg:pt-16 pb-5 pt-5">
       <div className="max-w-[1220px] px-3 mx-auto">
-        <div className="flex flex-row flex-wrap -mx-3 pb-[96px]">
+        <div className="flex flex-row flex-wrap -mx-3 lg:pb-[96px] pt-5">
           <div
             className="lg:w-4/12 px-3 w-full"
             data-aos="zoom-in"
