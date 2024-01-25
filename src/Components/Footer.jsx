@@ -12,7 +12,7 @@ const Footer = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
-            <img src={footlogo} alt="footlogo" />
+            <img src={footlogo} alt="footlogo" className="cursor-pointer"/>
             <p className="text-[#E6E6E6] text-base font-inter leading-[200%] max-w-[296px] pt-4 font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla

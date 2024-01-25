@@ -17,7 +17,7 @@ const Mynav = () => {
         <div className="max-w-[1138px]">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" className="cursor-pointer" />
               <ul className="pl-24">
                 <li onClick={nav}>
                   <a
